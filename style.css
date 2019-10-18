@@ -1,0 +1,50 @@
+.wrap{
+    background: red;
+    width: 900px;
+    margin: 10px auto;
+}
+
+.wrap .header{
+    background: green;
+    height: 50px;
+    padding: 4px 10px;
+}
+
+.wrap .menu{
+    background: yellowgreen;
+}
+
+.wrap .menu ul{
+    padding: 0;
+    margin: 0;
+    background: yellowgreen;
+    overflow: hidden;
+}
+
+.wrap .menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+.badan{
+    height: 450px;
+}
+
+.wrap .badan .sidebar{
+    background: rgb(193, 255, 47);
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.wrap .badan .content{
+    background: green;
+    float: left;
+    height: 100%;
+    width: 75%;
+}
